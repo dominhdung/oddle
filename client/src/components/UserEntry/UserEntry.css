@@ -1,0 +1,21 @@
+@import "../../shared/stylesheets/variables.css";
+@import "../../shared/stylesheets/layout.css";
+
+.entry {
+  margin-bottom: $padding;
+  border: 1px solid $borderColor;
+  display: inline-block;
+  width: 100%;
+  padding: calc($padding / 2);
+}
+
+.avatar {
+  width: 5em;
+  vertical-align: middle;
+}
+
+.loginName {
+  font-size: $fontSizeBig;
+  margin-left: calc($padding*2/3);
+  vertical-align: middle;
+}

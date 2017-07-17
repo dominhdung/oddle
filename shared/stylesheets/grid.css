@@ -1,0 +1,12 @@
+@media (max-width: $medium) {
+  
+}
+@media (max-width: $small) {
+
+}
+@media (min-width: $small) and (max-width: $medium) {
+
+}
+@media (min-width: $medium) and (max-width: $large) {
+
+}

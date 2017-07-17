@@ -1,0 +1,59 @@
+@import "../../shared/stylesheets/variables.css";
+@import "../../shared/stylesheets/layout.css";
+
+.container {
+  max-width: $containerWidth;
+  padding-right: $containerPadding;
+  padding-left: $containerPadding;
+  margin: 3em auto;
+}
+
+.thumbnail {
+  width: 100%;
+  max-width: 30em;
+  display: inline-block;
+}
+
+.information {
+  display: inline-block;
+  margin-left: $padding;
+  vertical-align: top;
+}
+
+
+.row {
+  margin-bottom: $padding;
+}
+.name {
+  display: inline-block;
+}
+
+.value {
+  margin-left: calc($padding / 2);
+  display: inline-block;
+  font-weight: bold;
+
+  select {
+    height: $controlHeight;
+    max-width: 20em;
+  }
+}
+
+.subtitle {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: $padding;
+}
+
+@media screen and (max-width: $medium) {
+  .information {
+    margin-left: 0;
+  }
+  .row {
+    &:first-of-type {
+       margin-top: $padding;
+     }
+
+  }
+}

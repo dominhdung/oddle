@@ -1,0 +1,37 @@
+/*Font*/
+$fontFamily: "Helvetica Neue",Helvetica,Arial,sans-serif;
+$fontSize: 0.875em;/* 14/16 */
+
+/*Colors*/
+$black: #000;
+$white: #fff;
+$blue: #0000FF;
+$darkGreen: #006400;
+$deepSkyBlue: #00BFFF;
+$fireBrick: #B22222;
+$gold: #FFD700;
+$green: #008000;
+$lightGrey: #D3D3D3;
+$whiteSmoke: #F5F5F5;
+$blue: #0000ff;
+
+/*Viewport sizes*/
+$small: 25.875em; /* 414/16 */
+$medium: 48em;/* 768/16 */
+$large: 85.5em; /* 1368/16 */
+$top: top;
+
+/*Cart*/
+$cartBorderColor: #ccc;
+
+/*Product Item  Variables*/
+$titleColor: #333;
+$thumbnailBorderRadius: 0.1.5625em;/* 25/16 */
+$itemFloatLeft: left;
+$itemWidth: 20%;
+$itemPosition: relative;
+$itemPadding: 0.9375em;/* 15/16 */
+
+/*Container*/
+$containerWidth: 80em;/* 1170/16 */
+$containerPadding: 0.9375em;/* 15/16 */

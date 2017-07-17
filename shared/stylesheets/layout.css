@@ -1,0 +1,52 @@
+/*:root {
+  --titleColor: #333;
+}*/
+
+@import "./variables.css";
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: $containerWidth;
+  padding-right: $containerPadding;
+  padding-left: $containerPadding;
+  margin-right: auto;
+  margin-left: auto;
+
+  /*@apply $marginCenter;*/
+
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: 1.42857143;
+  color: $titleColor;
+  background-color: $white;
+  box-sizing: border-box;
+}
+
+
+.left {
+  float: left;
+  width: 20%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+
+.right {
+  float: right;
+  width: 80%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 450px;
+  box-sizing: border-box;
+}

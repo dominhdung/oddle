@@ -1,0 +1,47 @@
+@import "../../shared/stylesheets/variables.css";
+
+.search_container {
+  max-width: $containerWidth;
+  padding-right: $containerPadding;
+  padding-left: $containerPadding;
+  margin: 3em auto;
+
+}
+
+.search_box {
+  margin-bottom: 15px;
+}
+
+.search_input {
+  margin-right: 6px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: $controlHeight;
+  padding: 6px 12px;
+  font-size: $fontSize;
+  border: 1px solid #ccc;
+  transition: border-color ease-in-out .15s;
+}
+
+.search_input:focus {
+  border-color: #66afe9;
+  outline: 0;
+}
+
+.search_button {
+  background: $white;
+  color: #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: $controlHeight;
+  padding: 6px 12px;
+  font-size: $fontSize;
+  border: 1px solid #ccc;
+  transition: border-color ease-in-out .15s;
+}
+
+.search_button:hover {
+  background: #ccc;
+  color: $white;
+  cursor: pointer;
+}

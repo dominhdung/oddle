@@ -1,0 +1,7 @@
+@import "../../shared/stylesheets/variables.css";
+
+.title {
+  font-size: calc($fontSize *2);
+  text-align: center;
+  margin-top: $padding;
+}
