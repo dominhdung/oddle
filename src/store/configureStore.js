@@ -9,11 +9,6 @@ const sagaMiddleware = createSaga();
 const middleware = [sagaMiddleware];
 let composeEnhancers = compose;
 
-if (process.env.NODE_ENV !== 'production') {
-  middleware.push(createLogger());
-  composeEnhancers = composeWithDevTools;
-}
-
 const configureStore = () => {
   const store = createStore(
     reducer,
