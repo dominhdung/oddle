@@ -10,11 +10,13 @@ import { syncHistoryWithStore } from 'react-router-redux';
 const store = configureStore();
 const history = syncHistoryWithStore(hashHistory, store);
 
+/*
 import App from './components/App';
 render(<App name='dom' />, document.getElementById('root'));
+*/
 
-/*
+
 render(
     <AppContainer store={store} history={history} />,
     document.getElementById('root'),
-);*/
+);
