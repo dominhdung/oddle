@@ -1,0 +1,181 @@
+$fontFamily: "Helvetica Neue",Helvetica,Arial,sans-serif;
+$fontSize: 1em;
+$fontSizeBig: 1.2em;
+$controlHeight: 2.4em;
+$padding: 0.8em;
+$borderColor: #ccc;
+
+/*Colors*/
+$black: #000;
+$white: #fff;
+$blue: #0000FF;
+$darkGreen: #006400;
+$deepSkyBlue: #00BFFF;
+$fireBrick: #B22222;
+$gold: #FFD700;
+$green: #008000;
+$lightGrey: #D3D3D3;
+$whiteSmoke: #F5F5F5;
+$blue: #0000ff;
+$red: #ff0000;
+
+/*Viewport sizes*/
+$small: 25.875em; /* 414/16 */
+$medium: 48em;/* 768/16 */
+$large: 85.5em; /* 1368/16 */
+$top: top;
+
+/*Cart*/
+$cartBorderColor: #ccc;
+
+/*Product Item  Variables*/
+$titleColor: #333;
+$thumbnailBorderRadius: 0.1.5625em;/* 25/16 */
+$itemFloatLeft: left;
+$itemWidth: 20%;
+$itemPosition: relative;
+$itemPadding: 0.9375em;/* 15/16 */
+
+/*Container*/
+$containerWidth: 60em;/* 1170/16 */
+$containerPadding: 0.9375em;/* 15/16 */
+
+
+
+h1 {
+  font-family: helvetica;
+  font-weight: 200;
+}
+
+
+.search_container {
+  max-width: $containerWidth;
+  padding-right: $containerPadding;
+  padding-left: $containerPadding;
+  margin: 3em auto;
+
+}
+
+.search_box {
+  margin-bottom: 15px;
+}
+
+.search_input {
+  margin-right: 6px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: $controlHeight;
+  padding: 6px 12px;
+  font-size: $fontSize;
+  border: 1px solid #ccc;
+  transition: border-color ease-in-out .15s;
+}
+
+.search_input:focus {
+  border-color: #66afe9;
+  outline: 0;
+}
+
+.search_button {
+  background: $white;
+  color: #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: $controlHeight;
+  padding: 6px 12px;
+  font-size: $fontSize;
+  border: 1px solid #ccc;
+  transition: border-color ease-in-out .15s;
+}
+
+.search_button:hover {
+  background: #ccc;
+  color: $white;
+  cursor: pointer;
+}
+
+
+.container {
+  max-width: $containerWidth;
+  padding-right: $containerPadding;
+  padding-left: $containerPadding;
+  margin: 3em auto;
+
+
+}
+
+.thumbnail {
+  width: 100%;
+  max-width: 30em;
+  display: inline-block;
+}
+
+.information {
+  display: inline-block;
+  margin-left: $padding;
+  vertical-align: top;
+}
+
+
+.row {
+  margin-bottom: $padding;
+}
+.name {
+  display: inline-block;
+}
+
+.value {
+  margin-left: 0.5em;
+  display: inline-block;
+  font-weight: bold;
+
+  select {
+    height: $controlHeight;
+    max-width: 20em;
+  }
+}
+
+.app-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: $padding;
+}
+
+.entry {
+  margin-bottom: $padding;
+  border: 1px solid $borderColor;
+  display: inline-block;
+  width: 100%;
+  padding: 0.5em;
+}
+
+.avatar {
+  width: 5em;
+  vertical-align: middle;
+}
+
+.loginName {
+  font-size: $fontSizeBig;
+  margin-left: 0.8em;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: $medium) {
+  .information {
+    margin-left: 0;
+  }
+  .row {
+    &:first-of-type {
+      margin-top: $padding;
+    }
+
+  }
+}
+
